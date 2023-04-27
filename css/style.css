@@ -41,6 +41,16 @@ p {
     line-height: 1.8rem;  
 }
 
+.wave{
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    opacity: 0.03;
+}
+
+.upside-down{
+    rotate: 0.5turn;
+}
+
 
 /* !UTILITY */
 
