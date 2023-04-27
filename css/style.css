@@ -1,0 +1,195 @@
+/* !RESET */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* !GENERICS */
+
+header{
+    min-height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+   
+}
+
+.column-left{
+    min-height: 400px;
+    width: 60%;
+    background-color: lightskyblue;
+    border: 2px dashed black;
+}
+
+.column-right{
+    min-height: 400px;
+    width: 40%;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* !UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+.c-center{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.pd-50{
+    padding: 50px;
+}
+
+/* HEADER */
+
+.container-header{
+    height: 100px;
+    font-size: 1.1rem; 
+    justify-content: space-between;
+    align-items: center; 
+
+}
+
+
+.nav-link li{
+    padding: 10px
+}
+
+
+.btn-login{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+
+}
+
+
+/* SECTION HEAD */
+
+.container-content-head{
+    height: 400px;
+    justify-content: center;
+}
+
+.content-head{
+    height: 100%;
+    width: 600px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-head h1{
+    font-size: 3rem;
+}
+
+.content-head p{
+    font-size: 1.2rem;  
+}
+
+/* MAIN COLUMN AND CONTENT */
+
+.main-content{
+    flex-direction: row;
+    
+}
+
+.main-content-reverse{
+    flex-direction: row-reverse;    
+}
+
+.content{
+    min-height:600px;
+    background-color: green;
+    border: 2px dashed black;
+    
+}
+
+/* COLUMN */
+
+.column{
+    background-color: #23272A;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.column-social{
+    background-color: pink;
+    border: 2px dashed black;
+    min-height: 400px;
+    width: 30%;
+}
+
+.container-col-right{
+    background-color: aqua;
+    border: 3px dashed white;
+    min-height: 400px;
+    width: 70%;
+    flex-direction: row;
+
+}
+
+.col-left, .col-medium-left, .col-medium-right, .col-right{
+    width: calc(100% / 4);
+    min-height: 400px;
+    border: 2px dashed black;
+}
+
+/* FOOTER */
+
+.bg-footer{
+    background-color: #23272A;
+    min-height: 150px;
+    border-top: 5px solid gray;
+    padding-top: 15px;
+}   
+
+.container-footer{
+    background-color: mediumaquamarine;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo-footer{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
