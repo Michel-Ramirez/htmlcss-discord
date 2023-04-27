@@ -188,7 +188,10 @@ p {
     
 }
 
-
+.btn-download.last-btn-download{
+    background-color: #8EA1E1;
+    color: white;
+}
 
 
 
