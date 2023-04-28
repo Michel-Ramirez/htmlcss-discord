@@ -15,7 +15,8 @@ body{
 header{
     min-height: 600px;
     background-image: url(../img/jumbo.png);
-    background-size: cover;  
+    background-size: cover;
+    background-position: center;
 }
 
 ul{
