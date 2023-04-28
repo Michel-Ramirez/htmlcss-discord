@@ -203,14 +203,18 @@ p {
     min-height: 400px;
     width: 70%;
     flex-direction: row;
-    
 }
+
 
 .column-social{
     min-height: 400px;
     width: 30%;
 }
 
+.column-social h3{
+    color: #8EA1E1;
+    padding-bottom: 20px;
+}
 
 /* LENGUAGE SELECTOR */
 
@@ -223,6 +227,10 @@ p {
     border: none;
     font-size: 1rem;
     color: white;
+}
+
+#lenguage option{
+    color: black;
 }
 
 .column-social h2{
